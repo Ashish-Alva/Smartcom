@@ -1,0 +1,13 @@
+speech to text --> vosk
+audio --> pyaudio
+
+
+
+
+vosk returns json string to convert to normal we import json  so we json.loads() them into Python dicts.
+
+vosk --> two imp class: 
+    1. model
+    2. KalidRecognizer
+
+
